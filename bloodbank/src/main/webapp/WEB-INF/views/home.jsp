@@ -11,5 +11,9 @@
         <h1>Hello World Payal!</h1>
         <p>${response}</p>
         
+        <div class="col-lg-12 tcb-common-btn" align="center">
+        	<a href="/bloodbank/createBloodDonorRegistration">See All</a>
+        </div>
+        
     </body>
 </html>
