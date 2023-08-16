@@ -1,14 +1,14 @@
 package com.bloodbank.model;
 
-import javax.persistence.Entity;
+/*import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.Table;*/
 
-@Entity
-@Table(name="customer")
+//@Entity
+//@Table(name="customer")
 public class Customer {
 
-	@Id
+	//@Id
 	private int personId;
 	private String personName;
 	private String personMobile;
@@ -16,22 +16,13 @@ public class Customer {
 		return personId;
 	}
 	
-	
-	
-	
 	public Customer() {
 		super();
 	}
 
-
-
-
 	public Customer(int id, String nm, String mob) {
 		
 	}
-
-
-
 
 	public void setPersonId(int personId) {
 		this.personId = personId;
